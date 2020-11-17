@@ -13,4 +13,4 @@ def create_app():
     # index is homepage
     app.add_url_rule('/', endpoint='/index')
 
-    return app
+    app.run(debug=True)
