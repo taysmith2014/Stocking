@@ -1,2 +1,2 @@
-web: gunicorn Stocking_copy:app
+web: gunicorn __init__:app
 
