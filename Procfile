@@ -1,1 +1,1 @@
-web: flask db upgrade; gunicorn task_list:'create_app()'
+web: flask db upgrade; gunicorn Stocking_copy:'create_app()'
