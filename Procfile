@@ -1,1 +1,2 @@
-web: flask db upgrade; gunicorn Stocking_copy:'create_app()'
+web: gunicorn app:Stocking_copy
+
